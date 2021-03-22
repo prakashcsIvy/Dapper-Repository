@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DWC.DL\DWC.DL.csproj" />
+    <ProjectReference Include="..\DWC.Models\DWC.Models.csproj" />
+  </ItemGroup>
+
+</Project>
