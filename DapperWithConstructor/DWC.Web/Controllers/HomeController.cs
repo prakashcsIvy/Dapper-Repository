@@ -24,7 +24,7 @@ namespace DWC.Web.Controllers
 
         public IActionResult Index()
         {
-            var result =  this.sampleService.sample();
+            var result =  this.sampleService.GetAllUsers();
             return View();
         }
 

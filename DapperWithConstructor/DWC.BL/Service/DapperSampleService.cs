@@ -8,7 +8,7 @@ namespace DWC.BL.Service
 {
     public interface IDapperSampleService
     {
-        List<SADM_Users> sample();
+        List<SADM_Users> GetAllUsers();
     }
     public class DapperSampleService : IDapperSampleService
     {
@@ -19,9 +19,9 @@ namespace DWC.BL.Service
             _repository = repository;
         }
 
-        public List<SADM_Users> sample()
+        public List<SADM_Users> GetAllUsers()
         {
-           return _repository.sample();
+           return _repository.GetAllUsers();
         }
     }
 }
